@@ -13,6 +13,13 @@ To provide training in HTML, CSS, Web Design and Web Site Development for studen
 
 Each person will launch a personal website hosted on Github Pages.
 
+We built our website site!
+
+- [Connor Bercik](https://github.com/projectdalek/)
+- [Andrew Johnson](https://ajjme.github.io/)
+- [Meagan Gramatikov](https://projectdalek.github.io/)
+- [Carter Webb](https://carterewebb.github.io/)
+
 
 ### 🧰 Today's Toolkit
 

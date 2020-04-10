@@ -39,7 +39,12 @@ Each student will produce a personal website hosted on Github Pages.
 - [Emoji Favicons](https://favicon.io/emoji-favicons/)
 - [Unsplash](https://unsplash.com/)
 
+
+---
+
 ## 🔗 Links
+
+A really big curated list of links all about web design and development. 
 
 ## Responsive designs
 
@@ -137,7 +142,8 @@ Note: Many of these books are available at the LA Public library.
 ## 🎨 More Resources and Sites
 
 ### 👉W3C: Standards and Accessibility
-The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web. 
+Leading the web to its full potenial. The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web. 
+- [W3C](https://www.w3.org/)
 - [Web Accessibility Initiative](https://www.w3.org/WAI/)  
 Strategies, standards, resources to make the Web accessible to people with disabilities
 - [W3C Web Design Standards](https://www.w3.org/standards/webdesign/)  
@@ -211,13 +217,14 @@ Everything you need to learn CSS Grid Layout
 ### 👉 Graphic and Video Editors
 - [Figma](https://www.figma.com/)
 - [Pixelmator](https://www.pixelmator.com/pro/)
-- [Affinity Suite](https://affinity.serif.com/en-us/)
+- [Affinity](https://affinity.serif.com/en-us/)
 - [Gimp, photo editor](https://www.gimp.org/)
 - [Inkscape, illustration](https://inkscape.org/)
 - [OpenShot, video editor](https://www.openshot.org/)
 
 
 ### 👉 Server
+- [Set up a local testing server](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 - [MAMP](https://www.mamp.info/en/)
 - [Laravel Valet](https://laravel.com/docs/7.x/valet)
 
@@ -233,9 +240,5 @@ Everything you need to learn CSS Grid Layout
 - [Unsplash](https://unsplash.com/)
 
 ## 👉 Development 
-- [node and npm](https://www.npmjs.com/get-npm)
+- [How to set up your Mac for Web Development in 2020](https://medium.com/better-programming/setting-up-your-mac-for-web-development-in-2020-659f5588b883)
 - [Brew Package Manager](https://brew.sh/)
-
- 
-
-

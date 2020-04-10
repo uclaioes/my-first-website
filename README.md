@@ -3,7 +3,7 @@
 
 ## UCLA IoES web design workshop 
 
-Web Design Workshop held April 9, 2020
+1. Webinar conducted virtually on Zoom, April 9, 2020
 
 ## Objectives
 

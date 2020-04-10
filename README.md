@@ -35,6 +35,9 @@ Each student will produce a personal website hosted on Github Pages.
 - [Google Chrome](https://www.google.com/chrome/)
 - [Firefox](https://www.mozilla.org/en-US/firefox/)
 
+## 📷 Emojis and Photos
+- [Emoji Favicons](https://favicon.io/emoji-favicons/)
+- [Unsplash](https://unsplash.com/)
 
 ## 🔗 Links
 
@@ -152,7 +155,6 @@ Web Design standards for building web pages, including HTML, CSS, SVG, device AP
 
 ### 👉 CSS Grid
 1. [Quickly master CSS Grid](https://mozilladevelopers.github.io/playground/css-grid/)
-
 1. [CSS Grid Layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
 
 ### 👉 Web Developer information

@@ -14,7 +14,7 @@ To provide training in HTML, CSS, Web Design and Web Site Development for studen
 Each student will produce a personal website hosted on Github Pages.
 
 
-### 🧰 Apps
+### 🧰 Today's Toolkit
 
 **Text Editors**
  
@@ -24,6 +24,15 @@ Each student will produce a personal website hosted on Github Pages.
 **GitHub**
 
 - [GitHub Desktop](https://desktop.github.com/)
+- [GitHub Pages](https://pages.github.com/)
+
+
+
+---
+
+## 🔗 Links
+
+A really big curated list of links all about web design and development. 
 
 **Web Development**
 
@@ -39,12 +48,6 @@ Each student will produce a personal website hosted on Github Pages.
 - [Emoji Favicons](https://favicon.io/emoji-favicons/)
 - [Unsplash](https://unsplash.com/)
 
-
----
-
-## 🔗 Links
-
-A really big curated list of links all about web design and development. 
 
 ## Responsive designs
 
@@ -200,11 +203,12 @@ Everything you need to learn CSS Grid Layout
 
 ##  🛠 Apps
 
-### 👉 Git and GitHub
+### 👉 Learning Git
+- [Working with GitHub Pages](https://help.github.com/en/github/working-with-github-pages)
 - [Getting started with GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop)
 - [Getting started with GitHub](https://help.github.com/en/github/getting-started-with-github)
-- [Working with GitHub Pages](https://help.github.com/en/github/working-with-github-pages)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Learning Git](https://github.com/scottgruber/learning-git)
 - [GitHub Desktop](https://desktop.github.com/)
 - [Git Kraken](https://www.gitkraken.com/)
 - [Git](https://git-scm.com/)

@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Typography</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="manifest" href="../site.webmanifest">
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+      :root {
+        --font-family: 'Montserrat', sans-serif;
+      }
+
+      main {
+        display: grid;
+        column-gap: 2vw;
+        grid-template-columns: 2fr 4fr;
+        grid-template-areas:
+          "type-face ."
+          "type-face type-sheet"
+          "type-face type-scale";
+      }
+
+
+      .type-face {
+        grid-area: type-face;
+      
+      }
+
+      .type-face h1 {
+        font-size: calc(2 * var(--font-size-xxxx-display));
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        line-height: 1;
+        margin: 0;
+        padding: 0;
+       
+      }
+
+      .type-sheet {
+        grid-area: type-sheet;
+        font-size: var(--font-size-xx-display);
+        overflow-wrap: break-word;
+      }
+
+      .type-scale {
+        grid-area: type-scale;
+      }
+
+      
+
+      h2 ~ h2,
+      .type-scale h1 {
+        margin: 4em 0 1em 0;
+        border-bottom: 1px solid silver;
+      }
+
+
+      ::selection {
+        background-color: hotpink;
+      }
+
+      .display {
+        font-size: var(--font-size-xx-display);
+      }
+
+      .thin {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-thin);
+      }
+
+      .extra-light {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-extra-light);
+      }
+
+      .light {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-light);
+      }
+
+      .regular {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight);
+      }
+
+      .medium {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-medium);
+      }
+
+      .bold {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-bold);
+      }
+
+      .extra-bold {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-extra-bold);
+      }
+
+      .black {
+        font-size: var(--font-size-display);
+        font-weight: var(--font-weight-black);
+      }
+
+      .italic {
+        font-style: italic;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Typography</h1>
+    </header>
+
+    <nav>
+
+    </nav>
+
+    <main>
+      <header class="type-face">
+        <h1>Sample Typeface</h2>
+      </header>
+
+      <div class="type-sheet">
+        <h2>Thin 100</h2>
+        <div class="thin display" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg Hh
+          Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="thin" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="thin" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="thin" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+
+        <h2>Thin Italic 100</h2>
+        <div class="thin italic display" contenteditable="true">Aa Bb Cc Dd Ee
+          Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="thin italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="thin italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="thin italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Extra Light 200</h2>
+        <div class="extra-light display" contenteditable="true">Aa Bb Cc Dd Ee
+          Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="extra-light" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="extra-light" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="extra-light" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Extra Light Italic 200</h2>
+        <div class="extra-light italic display" contenteditable="true">Aa Bb Cc
+          Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </div>
+        <div class="extra-light italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="extra-light italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="extra-light italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Light 300</h2>
+        <div class="light display" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg
+          Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="light" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="light" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="light" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+        <h2>Light Italic 300</h2>
+        <div class="light italic display" contenteditable="true">Aa Bb Cc Dd Ee
+          Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="light italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="light italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="light italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+        <h2>Regular 400</h2>
+        <div class="regular display" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg
+          Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="regular" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="regular" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="regular" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+        <h2>Regular Italic 400</h2>
+        <div class="regular italic display" contenteditable="true">Aa Bb Cc Dd
+          Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </div>
+        <div class="regular italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="regular italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="regular italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Medium 500</h2>
+        <div class="medium display" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg
+          Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="medium" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="medium" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="medium" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+        <h2>Medium Italic 500</h2>
+        <div class="medium italic display" contenteditable="true">Aa Bb Cc Dd Ee
+          Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="medium italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="medium italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="medium italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Semi-Bold 600</h2>
+        <div class="semi-bold display" contenteditable="true">Aa Bb Cc Dd Ee Ff
+          Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="semi-bold" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="semi-bold" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="semi-bold" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+        <h2>Semi-Bold Italic 600</h2>
+        <div class="semi-bold italic display" contenteditable="true">Aa Bb Cc Dd
+          Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </div>
+        <div class="semi-bold italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="semi-bold italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="semi-bold italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Bold 700</h2>
+        <div class="bold display" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg Hh
+          Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="bold" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="bold" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="bold" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+        <h2>Bold Italic 700</h2>
+        <div class="bold italic display" contenteditable="true">Aa Bb Cc Dd Ee
+          Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="bold italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="bold italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="bold italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+        <h2>Extra Bold 800</h2>
+        <div class="extra-bold display" contenteditable="true">Aa Bb Cc Dd Ee Ff
+          Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="extra-bold" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="extra-bold" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="extra-bold" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+        <h2>Extra Bold Italic 800</h2>
+        <div class="extra-bold italic display" contenteditable="true">Aa Bb Cc
+          Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz
+        </div>
+        <div class="extra-bold italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="extra-bold italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="extra-bold italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+        <h2>Black 900</h2>
+        <div class="black display" contenteditable="true">Aa Bb Cc Dd Ee Ff Gg
+          Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+        <div class="black" contenteditable="true">abcdefghijklmnopqrstuvwxyz
+        </div>
+        <div class="black" contenteditable="true">ABCDEFGHIJKLMNOPQRSTUVWXYZ
+        </div>
+        <div class="black" contenteditable="true">1234567890!@#$%^&*(){}‘’“”
+        </div>
+        <h2>Black Italic 900</h2>
+        <div class="black italic display" contenteditable="true">Aa Bb Cc Dd Ee
+          Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz</div>
+
+        <div class="black italic" contenteditable="true">
+          abcdefghijklmnopqrstuvwxyz</div>
+        <div class="black italic" contenteditable="true">
+          ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+        <div class="black italic" contenteditable="true">
+          1234567890!@#$%^&*(){}‘’“”</div>
+
+      </div>
+
+      <div class="type-scale">
+        <h1>Type scale</h1>
+        <p>This type scale is the major second with a ratio of 1.125</p>
+
+        <dl>
+          <dt style="font-size: var(--font-size-x-small);">Aa</dt>
+          <dd>--font-size-x-small</dd>
+
+          <dt style="font-size: var(-font-size-small);">Aa</dt>
+          <dd>--font-size-small</dd>
+
+          <dt style="font-size: var(--font-size);">Aa</dt>
+          <dd>--font-size</dd>
+
+          <dt style="font-size: var(--font-size-medium);">Aa</dt>
+          <dd>--font-size-medium</dd>
+
+          <dt style="font-size: var(--font-size-large);">Aa</dt>
+          <dd>--font-size-large</dd>
+
+          <dt style="font-size: var(--font-size-x-large);">Aa</dt>
+          <dd>--font-size-x-large</dd>
+
+          <dt style="font-size: var(--font-size-xx-large);">Aa</dt>
+          <dd>--font-size-xx-large</dd>
+
+          <dt style="font-size: var(--font-size-xxx-large);">Aa</dt>
+          <dd>--font-size-xxx-large</dd>
+
+          <dt style="font-size: var(--font-size-xxxx-large);">Aa</dt>
+          <dd>--font-size-xxxx-large</dd>
+
+          <dt style="font-size: var(--font-size-display);">Aa</dt>
+          <dd>--font-size-display</dd>
+
+          <dt style="font-size: var(--font-size-x-display);">Aa</dt>
+          <dd>--font-size-x-display</dd>
+
+          <dt style="font-size: var(--font-size-x-display);">Aa</dt>
+          <dd>--font-size-x-display</dd>
+
+          <dt style="font-size: var(--font-size-xx-display);">Aa</dt>
+          <dd>--font-size-xx-display</dd>
+
+          <dt style="font-size: var(--font-size-xxx-display);">Aa</dt>
+          <dd>--font-size-xxx-display</dd>
+
+          <dt style="font-size: var(--font-size-xxxx-display);">Aa</dt>
+          <dd>--font-size-xxxx-display</dd>
+        </dl>
+      </div>
+
+    </main>
+
+    <aside>
+
+    </aside>
+    <footer>
+
+    </footer>
+  </body>
+
+</html>

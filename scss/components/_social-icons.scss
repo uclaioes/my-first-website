@@ -1,0 +1,24 @@
+// social icons svg
+
+.social-icons > a:link {
+  text-decoration: none;
+}
+
+.social-icons > a:hover,
+.social-icons > a:focus {
+  background-color: initial;
+  outline: initial;
+}
+
+.social-icons a > .icon {
+  fill: var(--color-secondary);
+}
+
+.social-icons a > .icon:focus,
+.social-icons a > .icon:hover {
+  fill: var(--color-primary);
+}
+
+.icon.microblog {
+  transform: translateY(-7px);
+}

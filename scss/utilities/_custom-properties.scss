@@ -13,21 +13,21 @@
   --ucla-darker-green: #32aa56;
   --ucla-yellow: #ff0;
   --ucla-purple: #8a69d4;
-  --ucla-black: #000;
-  --ucla-black-90: #1a1a1a;
-  --ucla-black-80: #333;
-  --ucla-black-70: #4d4d4d;
-  --ucla-black-60: #666;
-  --ucla-black-50: #808080;
-  --ucla-black-40: #999;
-  --ucla-black-30: #b3b3b3;
-  --ucla-black-20: #ccc;
-  --ucla-black-10: #e6e6e6;
-  --ucla-white: #fff;
+  --black: #000;
+  --black-90: #1a1a1a;
+  --black-80: #333;
+  --black-70: #4d4d4d;
+  --black-60: #666;
+  --black-50: #808080;
+  --black-40: #999;
+  --black-30: #b3b3b3;
+  --black-20: #ccc;
+  --black-10: #e6e6e6;
+  --white: #fff;
 
   --color-primary: var(--ucla-blue);
   --color-secondary: var(--ucla-darkest-blue);
-  --color-accent: var(--ucla-gold);
+  --color-accent: var(--ucla-lightest-blue);
 
   --font-family: Helvetica, Arial, sans-serif;
   --font-family-alt: "Nunito", Helvetica, Arial, sans-serif;
@@ -84,8 +84,8 @@
   --border-width-hairline: 1px;
   --border-width-thin: 2px;
   --border-width-thick: 5px;
-  --border-thin: var(--border-width-hairline) solid var(--ucla-black-50);
-  --border-thick: var(--border-width-thick) solid var(--ucla-black-20);
+  --border-thin: var(--border-width-hairline) solid var(--black-50);
+  --border-thick: var(--border-width-thick) solid var(--black-20);
 
   --border-thin-primary: var(--border-width-hairline) solid var(--ucla-blue);
   --border-thick-primary: var(--border-width-thick) solid var(--ucla-blue);

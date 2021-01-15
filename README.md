@@ -1,8 +1,4 @@
-# My First Website
-
-
-## UCLA Institute of the Environment and Sustainability web design workshop 
-
+# Building My First Website
 
 ## Objectives
 

@@ -12,15 +12,15 @@
 
 1. [Create a GitHub account](https://github.com/join).
 1. [Install Git](https://git-scm.com/)
-1. Install a Text Editor. 
+1. Install a Text Editor. Both Visual Studio Code and Atom are good plain text editors. They are free so you can try them both out to see which you prefer. 
  - [Visual Studio Code](https://code.visualstudio.com/)
  - [Atom.io](https://atom.io/)
-1. Install a Git client
+1. Free Visual Git apps. Using a Git app with a GUI should make it easier to use Git.
 - [Git Tower for Students](https://www.git-tower.com/students)  
 - [GitHub Desktop](https://desktop.github.com/)
 
+- [GitHub Student Pack](https://education.github.com/pack)
 
-Note: Both Visual Studio Code and Atom are good plain text editors. They are free so you can try them both out to see which you prefer. Using a Git client will make it easier to use Git.
 
 
 ## Learning Resources
@@ -31,22 +31,20 @@ Note: Both Visual Studio Code and Atom are good plain text editors. They are fre
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [GitHub Docs](https://docs.github.com)
 - [Github Emoji](https://emojis.github.io)
+- [Using R Studio and Git Workshop](https://github.com/uclaioes/using-git-and-rstudio)
 
 **Next steps**
 
 - [Learn CSS](https://web.dev/learn/css/)
 - [Learn Responsive Design](https://web.dev/learn/design/)
-
 - [Google Web Dev](https://web.dev/learn)
 - [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn)
 
-** Deeper Dive **
+**Deeper Dive**
 
-- [GitHub Student Pack](https://education.github.com/pack)
-- [Mapping GeoJson files on Github](Mapping geoJSON files on GitHub)
 - [Rendering CSV data on Github](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/rendering-csv-and-tsv-data)
 - [Working with Jupyter Notebook files on GitHub](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/working-with-jupyter-notebook-files-on-github)
-- [Using R Studio and Git Workshop](https://github.com/uclaioes/using-git-and-rstudio)
+
 
 
 --- 

@@ -1,6 +1,6 @@
 # Building My First Website
 
-## Objectives
+## Objectives 🎯
 
 1. Launch your own website hosted on Github Pages. 
 1. Introduction to Git and GitHub. 
@@ -30,14 +30,24 @@ Note: Both Visual Studio Code and Atom are good plain text editors. They are fre
 - [Managing files in a repository](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository)
 - [Pro Git Book](https://git-scm.com/book/en/v2)
 - [GitHub Docs](https://docs.github.com)
+- [Github Emoji](https://emojis.github.io)
 
 **Next steps**
+
+- [Learn CSS](https://web.dev/learn/css/)
+- [Learn Responsive Design](https://web.dev/learn/design/)
+
+- [Google Web Dev](https://web.dev/learn)
+- [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Learn)
+
+** Deeper Dive **
 
 - [GitHub Student Pack](https://education.github.com/pack)
 - [Mapping GeoJson files on Github](Mapping geoJSON files on GitHub)
 - [Rendering CSV data on Github](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/rendering-csv-and-tsv-data)
 - [Working with Jupyter Notebook files on GitHub](https://docs.github.com/en/free-pro-team@latest/github/managing-files-in-a-repository/working-with-jupyter-notebook-files-on-github)
 - [Using R Studio and Git Workshop](https://github.com/uclaioes/using-git-and-rstudio)
+
 
 --- 
 
@@ -59,7 +69,8 @@ You will launch a personal website hosted on Github Pages!
 
 ---
 ## Past workshops
-1. Webinar conducted virtually on Zoom, April 9, 2020
-1. GitHub Pages workshop held on Zoom May 14, 2020
+1. GitHub Pages working held on Zoom Mar 28, 2022.
 1. GitHub Pages workshop held on Zoom Jan 19, 2021
+1. GitHub Pages workshop held on Zoom May 14, 2020
+1. Webinar conducted virtually on Zoom, April 9, 2020
 
